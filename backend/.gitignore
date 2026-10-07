@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Uploaded PDFs, SQLite, and Chroma
+backend/data/
+
+# Frontend
+node_modules/
+dist/
